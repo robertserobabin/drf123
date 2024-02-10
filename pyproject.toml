@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "drf123"
+version = "0.1.0"
+description = ""
+authors = ["dmitriyalushkin <pantific37@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "4.2.9"
+django-filter = "^23.5"
+pillow = "^10.2.0"
+djangorestframework = "^3.14.0"
+psycopg2-binary = "^2.9.9"
+djangorestframework-simplejwt = "^5.3.1"
+drf-yasg = "^1.21.7"
+django-cors-headers = "^4.3.1"
+requests = "^2.31.0"
+stripe = "^8.0.0"
+celery = "^5.3.6"
+eventlet = "^0.35.1"
+redis = "^5.0.1"
+django-celery-beat = "^2.5.0"
+python-dotenv = "^1.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
